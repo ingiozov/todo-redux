@@ -1,0 +1,28 @@
+.displayButtons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.displayButtons button {
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 30%;
+  box-shadow: var(--box-shadow);
+}
+
+button.active {
+  background-color: var(--blue-color);
+  color: #fff;
+  border-color: transparent;
+}
+
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,51 @@
+.TodoItem {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+.editBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.editBlock input {
+  background-color: var(--bg-color);
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  flex: 2;
+}
+
+.editBlock button {
+  border: 1px solid var(--bg-color);
+  padding: 0 15px;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 10px;
+}
