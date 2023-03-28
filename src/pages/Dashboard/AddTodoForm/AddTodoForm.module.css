@@ -11,7 +11,7 @@
 .addTodoForm input {
   font-weight: 500;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1;
   letter-spacing: -0.03em;
   flex: 2;
 }
